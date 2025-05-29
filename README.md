@@ -26,7 +26,7 @@ A full-stack login + landing page app using:
 - ✅ Entire app runs with a single Docker Compose command
 
 ---
-
+```
 ## 📁 Folder Structure
 
 ```
@@ -57,7 +57,7 @@ osm-auth-app/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/osm-auth-app.git
+git clone https://github.com/uthrapathy-m/osm-auth-app.git
 cd osm-auth-app
 ````
 
@@ -65,7 +65,7 @@ cd osm-auth-app
 
 ### 2. Build & Run the App
 
-#### ✅ Recommended: Full Clean Rebuild
+#### ✅ Recommended: Full Rebuild
 
 ```bash
 docker-compose up --build -d
@@ -75,7 +75,7 @@ docker-compose up --build -d
 * Reuses volumes and image cache
 * Faster for incremental testing
 
-#### ⚙️ Optional: Quick Build and Start
+#### ⚙️ Optional: Clean Build and Start
 
 ```bash
 docker-compose down -v && docker-compose build --no-cache && docker-compose up -d
@@ -149,28 +149,3 @@ Then rebuild with:
 docker-compose down -v && docker-compose build --no-cache && docker-compose up -d
 ```
 
----
-
-
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
-```
-
----
-
-### ✅ Next Steps
-
-- Replace `<your-username>` with your GitHub username
-- Rename `Your Name` in the **Author** section
-- Optional: add screenshots of login & landing pages
-
-Let me know if you want:
-- A matching `LICENSE` file
-- Deployment instructions for Railway, Render, or EC2
-- Or CI/CD with GitHub Actions
-
-I'll help you polish it even further 🚀
-```
