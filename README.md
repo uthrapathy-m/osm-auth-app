@@ -35,6 +35,8 @@ osm-auth-app/
 ├── backend/           # Node.js Express API (port 5000)
 ├── frontend/          # Static HTML UI served via npx serve (port 3000)
 ├── docker-compose.yml # Docker Compose setup
+├── .gitignore         # Docker Compose setup
+
 
 ````
 
